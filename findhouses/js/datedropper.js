@@ -13,51 +13,51 @@
 				months : {
 					short: [
 						'Jan',
-						'Feb',
+						'Fev',
 						'Mar',
-						'Apr',
-						'May',
-						'June',
-						'July',
-						'Aug',
-						'Sept',
-						'Oct',
+						'Abr',
+						'Mai',
+						'Jun',
+						'Jul',
+						'Ago',
+						'Set',
+						'Out',
 						'Nov',
-						'Dec'
+						'Dez'
 					],
 					full : [
-						'January',
-						'February',
-						'March',
-						'April',
-						'May',
-						'June',
-						'July',
-						'August',
-						'September',
-						'October',
-						'November',
-						'December'
+						'Janeiro',
+						'Fevereiro',
+						'Março',
+						'Abril',
+						'Maio',
+						'Junho',
+						'Julho',
+						'Agosto',
+						'Setembro',
+						'Outubro',
+						'Novembro',
+						'Dezembro'
 					]
 				},
 				weekdays : {
 					short : [
+						'D',
 						'S',
-						'M',
 						'T',
-						'W',
-						'T',
-						'F',
+						'Q',
+						'Q',
+						'S',
 						'S'
 					],
 					full : [
-						'Sunday',
-						'Monday',
-						'Tuesday',
-						'Wednesday',
-						'Thursday',
-						'Friday',
-						'Saturday'
+						'Domingo',
+						'Segunda',
+						'Terça',
+						'Quarta',
+						'Quinta',
+						'Sexta',
+						'Sábado'
 					]
 				}
 			},

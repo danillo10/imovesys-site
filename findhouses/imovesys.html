@@ -7,7 +7,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="html 5 template">
     <meta name="author" content="">
-    <title>Find Houses - HTML5 Template</title>
+    <title>Imove - Alugar e comprar ficou ainda mais fácil</title>
     <!-- FAVICON -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="css/jquery-ui.css">
@@ -52,7 +52,7 @@
                     <div class="left-side">
                         <!-- Logo -->
                         <div id="logo">
-                            <a href="index.html"><img src="images/logo-white-1.svg" data-sticky-logo="images/logo-red.svg" alt=""></a>
+                            <!-- <a href="index.html"><img src="images/logo-white-1.svg" data-sticky-logo="images/logo-red.svg" alt=""></a> -->
                         </div>
                         <!-- Mobile Navigation -->
                         <div class="mmenu-trigger">
@@ -66,7 +66,9 @@
                         <nav id="navigation" class="style-1 head-tr">
                             <ul id="responsive">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Propriedades</a></li>
+                                <li><a href="#">Casas</a></li>
+                                <li><a href="#">Apartamentos</a></li>
+                                <li><a href="#">Pontos Comerciais</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contato</a></li>
                             </ul>
@@ -78,9 +80,9 @@
                     <!-- Right Side Content / End -->
                     <div class="right-side d-none d-none d-lg-none d-xl-flex">
                         <!-- Header Widget -->
-                        <div class="header-widget">
+                        <!-- <div class="header-widget">
                             <a href="add-property.html" class="button border">Add Listing<i class="fas fa-laptop-house ml-2"></i></a>
-                        </div>
+                        </div> -->
                         <!-- Header Widget / End -->
                     </div>
                     <!-- Right Side Content / End -->
@@ -88,14 +90,14 @@
                     <!-- Right Side Content / End -->
                     <div class="header-user-menu user-menu add">
                         <div class="header-user-name">
-                            <span><img src="images/testimonials/ts-1.jpg" alt=""></span>Hi, Mary!
+                            <span><img src="images/testimonials/ts-1.jpg" alt=""></span>Olá, Danillo!
                         </div>
                         <ul>
-                            <li><a href="user-profile.html"> Edit profile</a></li>
-                            <li><a href="add-property.html"> Add Property</a></li>
-                            <li><a href="payment-method.html">  Payments</a></li>
-                            <li><a href="change-password.html"> Change Password</a></li>
-                            <li><a href="#">Log Out</a></li>
+                            <li><a href="#"> Editar Perfil</a></li>
+                            <li><a href="#"> Adicionar Propriedade</a></li>
+                            <li><a href="#">  Formas de Pagamentos</a></li>
+                            <li><a href="#"> Alterar Senha</a></li>
+                            <li><a href="#">Sair</a></li>
                         </ul>
                     </div>
                     <!-- Right Side Content / End -->
@@ -103,14 +105,14 @@
                     <div class="right-side d-none d-none d-lg-none d-xl-flex sign ml-0">
                         <!-- Header Widget -->
                         <div class="header-widget sign-in">
-                            <div class="show-reg-form modal-open"><a href="#">Sign In</a></div>
+                            <div class="show-reg-form"><a href="#"> Entrar</a></div>
                         </div>
                         <!-- Header Widget / End -->
                     </div>
                     <!-- Right Side Content / End -->
 
                     <!-- lang-wrap-->
-                    <div class="header-user-menu user-menu add d-none d-lg-none d-xl-flex">
+                    <!-- <div class="header-user-menu user-menu add d-none d-lg-none d-xl-flex">
                         <div class="lang-wrap">
                             <div class="show-lang"><span><i class="fas fa-globe-americas"></i><strong>ENG</strong></span><i class="fa fa-caret-down arrlan"></i></div>
                             <ul class="lang-tooltip lang-action no-list-style">
@@ -120,7 +122,7 @@
                                 <li><a href="#" data-lantext="De">Deutsch</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- lang-wrap end-->
 
                 </div>
@@ -140,11 +142,11 @@
                             <div class="hero-inner">
                                 <!-- Welcome Text -->
                                 <div class="welcome-text">
-                                    <h1 class="h1">Find Your Dream
+                                    <h1 class="h1">Realize seu sonho, temos para você
                                     <br class="d-md-none">
                                     <span class="typed border-bottom"></span>
                                 </h1>
-                                    <p class="mt-4">We Have Over Million Properties For You.</p>
+                                    <p class="mt-4">Nós temos milhões de propriedades para você.</p>
                                 </div>
                                 <!--/ End Welcome Text -->
                                 <!-- Search Form -->
@@ -152,10 +154,10 @@
                                     <div class="banner-search-wrap">
                                         <ul class="nav nav-tabs rld-banner-tab">
                                             <li class="nav-item">
-                                                <a class="nav-link active" data-toggle="tab" href="#tabs_1">For Sale</a>
+                                                <a class="nav-link active" data-toggle="tab" href="#tabs_1">Comprar</a>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" data-toggle="tab" href="#tabs_2">For Rent</a>
+                                                <a class="nav-link" data-toggle="tab" href="#tabs_2">Alugar</a>
                                             </li>
                                         </ul>
                                         <div class="tab-content">
@@ -163,40 +165,41 @@
                                                 <div class="rld-main-search">
                                                     <div class="row">
                                                         <div class="rld-single-input">
-                                                            <input type="text" placeholder="Enter Keyword...">
+                                                            <input type="text" placeholder="Pesquisar">
                                                         </div>
                                                         <div class="rld-single-select ml-22">
                                                             <select class="select single-select">
-                                                                <option value="1">Property Type</option>
-                                                                <option value="2">Family House</option>
-                                                                <option value="3">Apartment</option>
-                                                                <option value="3">Condo</option>
+                                                                <option value="">Tipo</option>
+                                                                <option value="1">Casa</option>
+                                                                <option value="2">Apartamento</option>
+                                                                <option value="3">Ponto Comercial</option>
                                                             </select>
                                                         </div>
                                                         <div class="rld-single-select">
                                                             <select class="select single-select mr-0">
-                                                                <option value="1">Location</option>
-                                                                <option value="2">Los Angeles</option>
-                                                                <option value="3">Chicago</option>
-                                                                <option value="3">Philadelphia</option>
-                                                                <option value="3">San Francisco</option>
-                                                                <option value="3">Miami</option>
-                                                                <option value="3">Houston</option>
+                                                                <option value="">Localização</option>
+                                                                <option value="2">Buritis</option>
+                                                                <option value="3">Belvedere</option>
+                                                                <option value="3">Sion</option>
+                                                                <option value="3">Savassi</option>
+                                                                <option value="3">Centro</option>
+                                                                <option value="3">Lourdes</option>
                                                             </select>
                                                         </div>
-                                                        <div class="dropdown-filter"><span>Advanced Search</span></div>
+                                                        <div class="dropdown-filter"><span>Mais Filtros</span></div>
                                                         <div class="col-xl-2 col-lg-2 col-md-4 pl-0">
-                                                            <a class="btn btn-yellow" href="#">Search Now</a>
+                                                            <a class="btn btn-yellow" href="#">Pesquisar</a>
                                                         </div>
                                                         <div class="explore__form-checkbox-list full-filter">
                                                             <div class="row">
                                                                 <div class="col-lg-4 col-md-6 py-1 pr-30 pl-0">
                                                                     <!-- Form Property Status -->
                                                                     <div class="form-group categories">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-home"></i>Property Status</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-home"></i>Finalidade</span>
                                                                             <ul class="list">
-                                                                                <li data-value="1" class="option selected ">For Sale</li>
-                                                                                <li data-value="2" class="option">For Rent</li>
+                                                                                <option value=""></option>
+                                                                                <li data-value="1" class="option selected ">Venda</li>
+                                                                                <li data-value="2" class="option">Aluguel</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -205,7 +208,7 @@
                                                                 <div class="col-lg-4 col-md-6 py-1 pr-30 pl-0 ">
                                                                     <!-- Form Bedrooms -->
                                                                     <div class="form-group beds">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bed" aria-hidden="true"></i> Bedrooms</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bed" aria-hidden="true"></i> Quartos</span>
                                                                             <ul class="list">
                                                                                 <li data-value="1" class="option selected">1</li>
                                                                                 <li data-value="2" class="option">2</li>
@@ -225,7 +228,7 @@
                                                                 <div class="col-lg-4 col-md-6 py-1 pl-0 pr-0">
                                                                     <!-- Form Bathrooms -->
                                                                     <div class="form-group bath">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bath" aria-hidden="true"></i> Bathrooms</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bath" aria-hidden="true"></i> Banheiros</span>
                                                                             <ul class="list">
                                                                                 <li data-value="1" class="option selected">1</li>
                                                                                 <li data-value="2" class="option">2</li>
@@ -247,15 +250,15 @@
                                                                     <div class="main-search-field-2">
                                                                         <!-- Area Range -->
                                                                         <div class="range-slider">
-                                                                            <label>Area Size</label>
-                                                                            <div id="area-range" data-min="0" data-max="1300" data-unit="sq ft"></div>
+                                                                            <label>Área</label>
+                                                                            <div id="area-range" data-min="0" data-max="1300" data-unit="m2"></div>
                                                                             <div class="clearfix"></div>
                                                                         </div>
                                                                         <br>
                                                                         <!-- Price Range -->
                                                                         <div class="range-slider">
-                                                                            <label>Price Range</label>
-                                                                            <div id="price-range" data-min="0" data-max="600000" data-unit="$"></div>
+                                                                            <label>Valor</label>
+                                                                            <div id="price-range" data-min="0" data-max="600000" data-unit="R$"></div>
                                                                             <div class="clearfix"></div>
                                                                         </div>
                                                                     </div>
@@ -264,19 +267,19 @@
                                                                     <!-- Checkboxes -->
                                                                     <div class="checkboxes one-in-row margin-bottom-10 ch-1">
                                                                         <input id="check-2" type="checkbox" name="check">
-                                                                        <label for="check-2">Air Conditioning</label>
+                                                                        <label for="check-2">Campo de Futebol</label>
                                                                         <input id="check-3" type="checkbox" name="check">
-                                                                        <label for="check-3">Swimming Pool</label>
+                                                                        <label for="check-3">Piscina</label>
                                                                         <input id="check-4" type="checkbox" name="check">
-                                                                        <label for="check-4">Central Heating</label>
+                                                                        <label for="check-4">Quadra de Tênis</label>
                                                                         <input id="check-5" type="checkbox" name="check">
-                                                                        <label for="check-5">Laundry Room</label>
+                                                                        <label for="check-5">Academia</label>
                                                                         <input id="check-6" type="checkbox" name="check">
-                                                                        <label for="check-6">Gym</label>
+                                                                        <label for="check-6">Área de Lazer</label>
                                                                         <input id="check-7" type="checkbox" name="check">
-                                                                        <label for="check-7">Alarm</label>
+                                                                        <label for="check-7">Varanda</label>
                                                                         <input id="check-8" type="checkbox" name="check">
-                                                                        <label for="check-8">Window Covering</label>
+                                                                        <label for="check-8">Quadra</label>
                                                                     </div>
                                                                     <!-- Checkboxes / End -->
                                                                 </div>
@@ -286,17 +289,17 @@
                                                                         <input id="check-9" type="checkbox" name="check">
                                                                         <label for="check-9">WiFi</label>
                                                                         <input id="check-10" type="checkbox" name="check">
-                                                                        <label for="check-10">TV Cable</label>
+                                                                        <label for="check-10">TV a Cabo</label>
                                                                         <input id="check-11" type="checkbox" name="check">
-                                                                        <label for="check-11">Dryer</label>
+                                                                        <label for="check-11">Espaço Gourmet</label>
                                                                         <input id="check-12" type="checkbox" name="check">
-                                                                        <label for="check-12">Microwave</label>
+                                                                        <label for="check-12">Playground</label>
                                                                         <input id="check-13" type="checkbox" name="check">
-                                                                        <label for="check-13">Washer</label>
+                                                                        <label for="check-13">Banheira</label>
                                                                         <input id="check-14" type="checkbox" name="check">
-                                                                        <label for="check-14">Refrigerator</label>
+                                                                        <label for="check-14">Salão de Jogos</label>
                                                                         <input id="check-15" type="checkbox" name="check">
-                                                                        <label for="check-15">Outdoor Shower</label>
+                                                                        <label for="check-15">Área Verde</label>
                                                                     </div>
                                                                     <!-- Checkboxes / End -->
                                                                 </div>
@@ -309,40 +312,40 @@
                                                 <div class="rld-main-search">
                                                     <div class="row">
                                                         <div class="rld-single-input">
-                                                            <input type="text" placeholder="Enter Keyword...">
+                                                            <input type="text" placeholder="Pesquisar">
                                                         </div>
                                                         <div class="rld-single-select ml-22">
                                                             <select class="select single-select">
-                                                                <option value="1">Property Type</option>
-                                                                <option value="2">Family House</option>
-                                                                <option value="3">Apartment</option>
-                                                                <option value="3">Condo</option>
+                                                                <option value="1">Tipo</option>
+                                                                <option value="2">Casa</option>
+                                                                <option value="3">Apartamento</option>
+                                                                <option value="3">Ponto Comercial</option>
                                                             </select>
                                                         </div>
                                                         <div class="rld-single-select">
                                                             <select class="select single-select mr-0">
-                                                                <option value="1">Location</option>
-                                                                <option value="2">Los Angeles</option>
-                                                                <option value="3">Chicago</option>
-                                                                <option value="3">Philadelphia</option>
-                                                                <option value="3">San Francisco</option>
-                                                                <option value="3">Miami</option>
-                                                                <option value="3">Houston</option>
+                                                                <option value="1">Localização</option>
+                                                                <option value="2">Buritis</option>
+                                                                <option value="3">Belvedere</option>
+                                                                <option value="3">Sion</option>
+                                                                <option value="3">Savassi</option>
+                                                                <option value="3">Centro</option>
+                                                                <option value="3">Lourdes</option>
                                                             </select>
                                                         </div>
-                                                        <div class="dropdown-filter"><span>Advanced Search</span></div>
+                                                        <div class="dropdown-filter"><span>Mais Filtros</span></div>
                                                         <div class="col-xl-2 col-lg-2 col-md-4 pl-0">
-                                                            <a class="btn btn-yellow" href="#">Search Now</a>
+                                                            <a class="btn btn-yellow" href="#">Pesquisar</a>
                                                         </div>
                                                         <div class="explore__form-checkbox-list full-filter">
                                                             <div class="row">
                                                                 <div class="col-lg-4 col-md-6 py-1 pr-30 pl-0">
                                                                     <!-- Form Property Status -->
                                                                     <div class="form-group categories">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-home"></i>Property Status</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-home"></i>Finalidade</span>
                                                                             <ul class="list">
-                                                                                <li data-value="1" class="option selected ">For Sale</li>
-                                                                                <li data-value="2" class="option">For Rent</li>
+                                                                                <li data-value="1" class="option selected ">Venda</li>
+                                                                                <li data-value="2" class="option">Aluguel</li>
                                                                             </ul>
                                                                         </div>
                                                                     </div>
@@ -351,7 +354,7 @@
                                                                 <div class="col-lg-4 col-md-6 py-1 pr-30 pl-0 ">
                                                                     <!-- Form Bedrooms -->
                                                                     <div class="form-group beds">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bed" aria-hidden="true"></i> Bedrooms</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bed" aria-hidden="true"></i> Quartos</span>
                                                                             <ul class="list">
                                                                                 <li data-value="1" class="option selected">1</li>
                                                                                 <li data-value="2" class="option">2</li>
@@ -371,7 +374,7 @@
                                                                 <div class="col-lg-4 col-md-6 py-1 pl-0 pr-0">
                                                                     <!-- Form Bathrooms -->
                                                                     <div class="form-group bath">
-                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bath" aria-hidden="true"></i> Bathrooms</span>
+                                                                        <div class="nice-select form-control wide" tabindex="0"><span class="current"><i class="fa fa-bath" aria-hidden="true"></i> Banheiros</span>
                                                                             <ul class="list">
                                                                                 <li data-value="1" class="option selected">1</li>
                                                                                 <li data-value="2" class="option">2</li>
@@ -393,15 +396,15 @@
                                                                     <div class="main-search-field-2">
                                                                         <!-- Area Range -->
                                                                         <div class="range-slider">
-                                                                            <label>Area Size</label>
-                                                                            <div id="area-range-rent" data-min="0" data-max="1300" data-unit="sq ft"></div>
+                                                                            <label>Área</label>
+                                                                            <div id="area-range-rent" data-min="0" data-max="1300" data-unit="m2"></div>
                                                                             <div class="clearfix"></div>
                                                                         </div>
                                                                         <br>
                                                                         <!-- Price Range -->
                                                                         <div class="range-slider">
-                                                                            <label>Price Range</label>
-                                                                            <div id="price-range-rent" data-min="0" data-max="600000" data-unit="$"></div>
+                                                                            <label>Valor</label>
+                                                                            <div id="price-range-rent" data-min="0" data-max="600000" data-unit="R$"></div>
                                                                             <div class="clearfix"></div>
                                                                         </div>
                                                                     </div>
@@ -409,40 +412,40 @@
                                                                 <div class="col-lg-3 col-md-6 col-sm-12 py-1 pr-30">
                                                                     <!-- Checkboxes -->
                                                                     <div class="checkboxes one-in-row margin-bottom-10 ch-1">
-                                                                        <input id="check-16" type="checkbox" name="check">
-                                                                        <label for="check-16">Air Conditioning</label>
-                                                                        <input id="check-17" type="checkbox" name="check">
-                                                                        <label for="check-17">Swimming Pool</label>
-                                                                        <input id="check-18" type="checkbox" name="check">
-                                                                        <label for="check-18">Central Heating</label>
-                                                                        <input id="check-19" type="checkbox" name="check">
-                                                                        <label for="check-19">Laundry Room</label>
-                                                                        <input id="check-20" type="checkbox" name="check">
-                                                                        <label for="check-20">Gym</label>
-                                                                        <input id="check-21" type="checkbox" name="check">
-                                                                        <label for="check-21">Alarm</label>
-                                                                        <input id="check-22" type="checkbox" name="check">
-                                                                        <label for="check-22">Window Covering</label>
+                                                                        <input id="check-2" type="checkbox" name="check">
+                                                                        <label for="check-2">Campo de Futebol</label>
+                                                                        <input id="check-3" type="checkbox" name="check">
+                                                                        <label for="check-3">Piscina</label>
+                                                                        <input id="check-4" type="checkbox" name="check">
+                                                                        <label for="check-4">Quadra de Tênis</label>
+                                                                        <input id="check-5" type="checkbox" name="check">
+                                                                        <label for="check-5">Academia</label>
+                                                                        <input id="check-6" type="checkbox" name="check">
+                                                                        <label for="check-6">Área de Lazer</label>
+                                                                        <input id="check-7" type="checkbox" name="check">
+                                                                        <label for="check-7">Varanda</label>
+                                                                        <input id="check-8" type="checkbox" name="check">
+                                                                        <label for="check-8">Quadra</label>
                                                                     </div>
                                                                     <!-- Checkboxes / End -->
                                                                 </div>
                                                                 <div class="col-lg-3 col-md-6 col-sm-12 py-1 pr-30">
                                                                     <!-- Checkboxes -->
                                                                     <div class="checkboxes one-in-row margin-bottom-10 ch-2">
-                                                                        <input id="check-23" type="checkbox" name="check">
-                                                                        <label for="check-23">WiFi</label>
-                                                                        <input id="check-24" type="checkbox" name="check">
-                                                                        <label for="check-24">TV Cable</label>
-                                                                        <input id="check-25" type="checkbox" name="check">
-                                                                        <label for="check-25">Dryer</label>
-                                                                        <input id="check-26" type="checkbox" name="check">
-                                                                        <label for="check-26">Microwave</label>
-                                                                        <input id="check-27" type="checkbox" name="check">
-                                                                        <label for="check-27">Washer</label>
-                                                                        <input id="check-28" type="checkbox" name="check">
-                                                                        <label for="check-28">Refrigerator</label>
-                                                                        <input id="check-29" type="checkbox" name="check">
-                                                                        <label for="check-29">Outdoor Shower</label>
+                                                                        <input id="check-9" type="checkbox" name="check">
+                                                                        <label for="check-9">WiFi</label>
+                                                                        <input id="check-10" type="checkbox" name="check">
+                                                                        <label for="check-10">TV a Cabo</label>
+                                                                        <input id="check-11" type="checkbox" name="check">
+                                                                        <label for="check-11">Espaço Gourmet</label>
+                                                                        <input id="check-12" type="checkbox" name="check">
+                                                                        <label for="check-12">Playground</label>
+                                                                        <input id="check-13" type="checkbox" name="check">
+                                                                        <label for="check-13">Banheira</label>
+                                                                        <input id="check-14" type="checkbox" name="check">
+                                                                        <label for="check-14">Salão de Jogos</label>
+                                                                        <input id="check-15" type="checkbox" name="check">
+                                                                        <label for="check-15">Área Verde</label>
                                                                     </div>
                                                                     <!-- Checkboxes / End -->
                                                                 </div>
@@ -467,127 +470,127 @@
         <section class="recently portfolio bg-white-1 rec-pro2 hmp ho-17">
             <div class="container-fluid">
                 <div class="sec-title">
-                    <h2><span>Featured </span>Properties</h2>
-                    <p>These are our featured properties</p>
+                    <h2><span>Destaques </span></h2>
+                    <p>Nossas propriedades em destaques</p>
                 </div>
                 <div class="row portfolio-items">
                     <div class="item col-lg-4 col-md-6 col-xs-12 landscapes sale" data-aos="zoom-in" data-aos-delay="150">
                         <div class="landscapes listing-item compact thehp-1">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-fluid img-center" style="background-image: url(images/feature-properties/fp-8.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Sale</span>
+                                    <span>Venda</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Luxury House in New York</div>
+                                    <div class="recent-title">Casa de luxo em Belvedere</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>                        
                     </div>
                     <div class="item col-lg-4 col-md-6 col-xs-12 people rent" data-aos="zoom-in" data-aos-delay="250">
                         <div class="people listing-item compact thehp-2">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-9.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Rent</span>
+                                    <span>Alugar</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Villa House in Los Angeles</div>
+                                    <div class="recent-title">Casa em condomínio Buritis</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>
                     </div>
                     <div class="item col-lg-4 col-md-6 col-xs-12 people landscapes sale" data-aos="zoom-in" data-aos-delay="350">
                         <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Sale</span>
+                                    <span>Venda</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Family House in San Francisco</div>
+                                    <div class="recent-title">Casa de Família em Lourdes</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>                        
                     </div>
                     <div class="item col-lg-4 col-md-6 col-xs-12 people landscapes sale" data-aos="zoom-in" data-aos-delay="150">
                         <div class="landscapes listing-item compact thehp-2">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Rent</span>
+                                    <span>Alugar</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Condo House in Miami</div>
+                                    <div class="recent-title">Casa em condomínio in Contagem</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>
                     </div>
                     <div class="item col-lg-4 col-md-6 it2 col-xs-12 web rent h-177 no-pb" data-aos="zoom-in" data-aos-delay="250">
                         <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-12.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Sale</span>
+                                    <span>Venda</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Luxury House in Chicago</div>
+                                    <div class="recent-title">Casa de luxo em Savassi</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>
                     </div>
                     <div class="item col-lg-4 col-md-6 it2 col-xs-12 web rent ho17-thelast no-pb" data-aos="zoom-in" data-aos-delay="350">
                         <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                            <a href="single-property-1.html" class="recent-16 hmp" data-aos="fade-up">
+                            <a href="imovesys-propriedade.html" class="recent-16 hmp" data-aos="fade-up">
                                 <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-6.jpg);"></div>
                                 <div class="recent-content"></div>
                                 <div class="listing-badges">
-                                    <span>For Rent</span>
+                                    <span>Alugar</span>
                                 </div>
                                 <div class="recent-details">
-                                    <div class="recent-title">Luxury House in Toronto</div>
+                                    <div class="recent-title">Casa de luxo em Sion</div>
                                     <div class="price-details">
-                                    <div class="recent-price mb-3">$230,000</div>
-                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Br <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ba <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gr <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                    <div class="recent-price mb-3">R$230.000,00</div>
+                                    <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span class="mr-1">|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span class="mr-1">|</span><i class="fa fa-car mr-1" aria-hidden="true"></i> 2 Gar <span class="mr-1">|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
                                 </div>
-                                <div class="view-proper">View Details</div>
+                                <div class="view-proper">Detalhes</div>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="bg-all">
-                    <a href="properties-full-grid-1.html" class="btn btn-outline-light">View All</a>
+                    <a href="#" class="btn btn-outline-light"> Ver Todos</a>
                 </div>
             </div>
         </section>
@@ -597,18 +600,18 @@
         <section class="how-it-works bg-white rec-pro">
             <div class="container-fluid">
                 <div class="sec-title">
-                    <h2><span>Why </span>Choose Us</h2>
-                    <p>We provide full service at every step.</p>
+                    <h2><span>Por que escolher a</span> Imove</h2>
+                    <p>Nós oferecemos um serviço completo desde a busca a assinatura do contrato</p>
                 </div>
                 <div class="row service-1">
                     <article class="col-lg-3 col-md-6 col-xs-12 serv" data-aos="fade-up" data-aos-delay="150">
                         <div class="serv-flex">
                             <div class="art-1 img-13">
                                 <img src="images/icons/icon-4.svg" alt="">
-                                <h3>Wide Renge Of Properties</h3>
+                                <h3>Assessoria Completa</h3>
                             </div>
                             <div class="service-text-p">
-                                <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory.</p>
+                                <p class="text-center">Oferecemos uma assessoria completa para lhe auxiliar desde a pesquisa pelo imóvel ideal a assinatura do contrato.</p>
                             </div>
                         </div>
                     </article>
@@ -616,10 +619,10 @@
                         <div class="serv-flex">
                             <div class="art-1 img-14">
                                 <img src="images/icons/icon-5.svg" alt="">
-                                <h3>Trusted by thousands</h3>
+                                <h3>Confiado por milhares</h3>
                             </div>
                             <div class="service-text-p">
-                                <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory.</p>
+                                <p class="text-center">Estamos no mercado imobiliário a mais de 15 anos e temos muitos clientes que confiaram e confiam nos nossos serviços.</p>
                             </div>
                         </div>
                     </article>
@@ -627,10 +630,10 @@
                         <div class="serv-flex arrow">
                             <div class="art-1 img-15">
                                 <img src="images/icons/icon-6.svg" alt="">
-                                <h3>Financing made easy</h3>
+                                <h3>Financiamento Fácil</h3>
                             </div>
                             <div class="service-text-p">
-                                <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory.</p>
+                                <p class="text-center">Entregamos aos nossos clientes todos os modelos de financiamento possíveis para que ele possa ter liberdade de escolher o melhor.</p>
                             </div>
                         </div>
                     </article>
@@ -638,10 +641,10 @@
                         <div class="serv-flex">
                             <div class="art-1 img-14">
                                 <img src="images/icons/icon-15.svg" alt="">
-                                <h3>We are here near you</h3>
+                                <h3>Estamos perto de você</h3>
                             </div>
                             <div class="service-text-p">
-                                <p class="text-center">lorem ipsum dolor sit amet, consectetur pro adipisici consectetur debits adipisicing lacus consectetur Business Directory.</p>
+                                <p class="text-center">Temos escritório nas principais capitais do Brasil e estamos sempre próximos para atender você, alé disso temos central de atendimento.</p>
                             </div>
                         </div>
                     </article>
@@ -650,165 +653,165 @@
         </section>
         <!-- END SECTION WHY CHOOSE US -->
 
-        <!-- START SECTION PROPERTIES FOR SALE -->
+        <!-- START SECTION PROPERTIES Venda -->
         <section class="recently portfolio featured bg-white-1 rec-pro">
             <div class="container-fluid">
                 <div class="sec-title">
-                    <h2><span>Propeties for </span>Sale</h2>
-                    <p>These are our properties for sale</p>
+                    <h2><span>Propriedades para </span>Venda</h2>
+                    <p>Temos milhares de opções de compra para você</p>
                 </div>
                 <div class="portfolio col-xl-12 p-0">
                     <div class="slick-lancers">
                         <div class="agents-grid">
                             <div class="landscapes listing-item compact thehp-1" data-aos="fade-up" data-aos-delay="150">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-fluid img-center" style="background-image: url(images/feature-properties/fp-8.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">                                        
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="250">
                             <div class="people listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-9.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Family Apartment</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Apartamento Para Família</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="350">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Villa House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="450">
                             <div class="landscapes listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury Condo</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa em Condomínio</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="550">
                             <div class="people listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-6.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                                <a href="sisingle-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-1.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-2.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-1">
-                                <a href="single-property-1.html" class="recent-16">
+                                <a href="imovesys-propriedade.html" class="recent-16">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-3.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Sale</span>
+                                        <span>Venda</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
@@ -816,167 +819,167 @@
                 </div>
             </div>
         </section>
-        <!-- END SECTION PROPERTIES FOR SALE -->
+        <!-- END SECTION PROPERTIES Venda -->
         
-        <!-- START SECTION PROPERTIES FOR RENT -->
+        <!-- START SECTION PROPERTIES Alugar -->
         <section class="recently portfolio bg-white-1 rec-pro pt-3">
             <div class="container-fluid">
                 <div class="sec-title">
-                    <h2><span>Propeties for </span>Rent</h2>
-                    <p>These are our properties for rent</p>
+                    <h2><span>Propriedades para </span>Aluguel</h2>
+                    <p>Temos milhares de opções de aluguel para você</p>
                 </div>
                 <div class="portfolio col-xl-12 p-0">
                     <div class="slick-lancers">
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="150">
                             <div class="landscapes listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-fluid img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="250">
                             <div class="people listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Family Apartment</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Apartamento Para Família</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="350">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-10.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Villa House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="450">
                             <div class="landscapes listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-11.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury Condo</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa em Condomínio</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up" data-aos-delay="550">
                             <div class="people listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/feature-properties/fp-12.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-6.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                                <a href="sisingle-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-1.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-2.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
                         <div class="agents-grid" data-aos="fade-up">
                             <div class="people landscapes no-pb pbp-3 listing-item compact thehp-2">
-                                <a href="single-property-1.html" class="recent-16" data-aos="fade-up">
+                                <a href="imovesys-propriedade.html" class="recent-16" data-aos="fade-up">
                                     <div class="recent-img16 img-center" style="background-image: url(images/single-property/s-3.jpg);"></div>
                                     <div class="recent-content"></div>
                                     <div class="listing-badges">
-                                        <span>For Rent</span>
+                                        <span>Alugar</span>
                                     </div>
                                     <div class="recent-details">
-                                        <div class="recent-title">Luxury House</div>
-                                        <div class="recent-price mb-3">$230,000</div>
-                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Bed <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Bath <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 sq ft</div>
+                                        <div class="recent-title">Casa de Luxo</div>
+                                        <div class="recent-price mb-3">R$230.000,00</div>
+                                        <div class="house-details thehp-1"><i class="fa fa-bed mr-1" aria-hidden="true"></i> 6 Qrts <span>|</span><i class="fa fa-bath mr-1" aria-hidden="true"></i> 3 Ban <span>|</span><i class="fa fa-object-group mr-1" aria-hidden="true"></i> 720 m2</div>
                                     </div>
-                                    <div class="view-proper">View Details</div>
+                                    <div class="view-proper">Detalhes</div>
                                 </a>
                             </div>
                         </div>
@@ -984,63 +987,63 @@
                 </div>
             </div>
         </section>
-        <!-- END SECTION PROPERTIES FOR RENT -->  
+        <!-- END SECTION PROPERTIES Alugar -->  
 
         <!-- START SECTION CONTACT US -->
         <section class="request info-help" id="quote">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-12" data-aos="fade-right">
-                        <h3>Ready to get started?</h3>
+                        <h3>Pronto para começar?</h3>
                         <form id="contactform" class="contact-form" name="contactform" method="post" novalidate>
                             <div id="success" class="successform">
-                                <p class="alert alert-success font-weight-bold" role="alert">Your message was sent successfully!</p>
+                                <p class="alert alert-success font-weight-bold" role="alert">Sua mensagem foi enviada com sucesso!</p>
                             </div>
                             <div id="error" class="errorform">
-                                <p>Something went wrong, try refreshing and submitting the form again.</p>
+                                <p>Desculpe o transtorno, tivemos um problema ao enviar sua solicitação, tente novamente.</p>
                             </div>
                             <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="firstname" placeholder="Your Name">
+                                <input type="text" required class="form-control input-custom input-full" name="firstname" placeholder="Seu nome">
                             </div>
                             <div class="form-group">
-                                <input type="text" required class="form-control input-custom input-full" name="phonenumber" placeholder="Phone Number">
+                                <input type="text" required class="form-control input-custom input-full" name="phonenumber" placeholder="Seu telefone">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control input-custom input-full" name="email" placeholder="Your Email">
+                                <input type="text" class="form-control input-custom input-full" name="email" placeholder="Seu e-mail">
                             </div>
                             <div class="form-group mb-1">
-                                <textarea class="form-control textarea-custom input-full" id="ccomment" name="message" required rows="1" placeholder="Your Message"></textarea>
+                                <textarea class="form-control textarea-custom input-full" id="ccomment" name="message" required rows="1" placeholder="Sua mensagem"></textarea>
                             </div>
-                            <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Send Message</button>
+                            <button type="submit" id="submit-contact" class="btn btn-primary btn-lg">Enviar mensagem</button>
                         </form>
                     </div>
                     <div class="col-lg-5 col-md-12 bgc" data-aos="fade-left">
                         <div class="call-info">
-                            <h3>Contact Details</h3>
-                            <p class="mb-5">Please find below contact details and contact us today!</p>
+                            <h3>Nosso endereço Sede</h3>
+                            <p class="mb-5">Abaixo está nosso endereço sede, venha nos visitar!</p>
                             <ul>
                                 <li>
                                     <div class="info">
                                         <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                        <p class="in-p">95 South Park Ave, USA</p>
+                                        <p class="in-p">Avenida Afonso Pena, 355, Savassi, Belo Horizonte - MG</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="info">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
-                                        <p class="in-p">+456 875 369 208</p>
+                                        <p class="in-p">+31 3342 0090</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="info">
                                         <i class="fa fa-envelope" aria-hidden="true"></i>
-                                        <p class="in-p ti">support@findhouses.com</p>
+                                        <p class="in-p ti">contato@imove.com.br</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="info cll">
                                         <i class="fa fa-clock-o" aria-hidden="true"></i>
-                                        <p class="in-p ti">8:00 a.m - 9:00 p.m</p>
+                                        <p class="in-p ti">8:00 - 18:00(Segunda à Sexta)</p>
                                     </div>
                                 </li>
                             </ul>
@@ -1055,15 +1058,15 @@
         <section class="team bg-white rec-pro">
             <div class="container-fluid">
                 <div class="sec-title">
-                    <h2><span>Meet Our </span>Agents</h2>
-                    <p>Our Agents are here to help you</p>
+                    <h2><span>Nossos </span>Corretores</h2>
+                    <p>Profissionais de alta qualidade prontos para atender você!</p>
                 </div>
                 <div class="row team-all">
                     <!--Team Block-->
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2" data-aos="fade-up" data-aos-delay="150">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/t-5.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/t-5.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1074,8 +1077,8 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Carls Jhons</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Carlos Jhones</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
@@ -1083,7 +1086,7 @@
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2" data-aos="fade-up" data-aos-delay="250">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/t-6.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/t-6.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1094,8 +1097,8 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Arling Tracy</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Amanda Villar</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
@@ -1103,7 +1106,7 @@
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2" data-aos="fade-up" data-aos-delay="350">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/t-7.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/t-7.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1114,8 +1117,8 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Mark Web</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Marcos Paulo</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
@@ -1123,7 +1126,7 @@
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-none" data-aos="fade-up" data-aos-delay="450">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/t-8.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/t-8.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1134,15 +1137,15 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Katy Grace</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Katia Deucher</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-none" data-aos="fade-up" data-aos-delay="550">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/team-image-2.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/team-image-2.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1153,15 +1156,15 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Chris Melo</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Cristiane Campelo</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
                     <div class="team-block col-sm-6 col-md-4 col-lg-4 col-xl-2 pb-none" data-aos="fade-up" data-aos-delay="650">
                         <div class="inner-box team-details">
                             <div class="image team-head">
-                                <a href="agents-listing-grid.html"><img src="images/team/team-image-7.jpg" alt="" /></a>
+                                <a href="#"><img src="images/team/team-image-7.jpg" alt="" /></a>
                                 <div class="team-hover">
                                     <ul class="team-social">
                                         <li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
@@ -1172,8 +1175,8 @@
                                 </div>
                             </div>
                             <div class="lower-box">
-                                <h3><a href="agents-listing-grid.html">Nina Thomas</a></h3>
-                                <div class="designation">Real Estate Agent</div>
+                                <h3><a href="#">Nina Tomas</a></h3>
+                                <div class="designation">Corretor</div>
                             </div>
                         </div>
                     </div>
@@ -1186,20 +1189,20 @@
         <section class="visited-cities bg-white-1 rec-pro">
             <div class="container-fluid">
                <div class="sec-title">
-                    <h2><span>Most Popular </span>Places</h2>
-                    <p>Explore the world of real estate.</p>
+                    <h2><span>Lugares mais</span> Populares</h2>
+                    <p>Explore as melhores cidades, os lugares mais pesquisados.</p>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
                     </div>
                     <div class="col-lg-3 col-md-6 pr-1" data-aos="zoom-in" data-aos-delay="150">
                         <!-- Image Box -->
-                        <a href="listing-details.html" class="img-box hover-effect">
+                        <a href="#" class="img-box hover-effect">
                             <img src="images/popular-places/7.jpg" class="img-responsive" alt="">
                             <!-- Badge -->
                             <div class="img-box-content visible">
-                                <h4 class="mb-2">New York</h4>
-                                <span>203 Properties</span>
+                                <h4 class="mb-2">Belo Horizonte</h4>
+                                <span>203 Propriedades</span>
                                 <ul class="starts text-center mt-2">
                                     <li><i class="fa fa-star"></i>
                                     </li>
@@ -1217,11 +1220,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 pr-1" data-aos="zoom-in" data-aos-delay="250">
                         <!-- Image Box -->
-                        <a href="listing-details.html" class="img-box hover-effect">
+                        <a href="#" class="img-box hover-effect">
                             <img src="images/popular-places/8.jpg" class="img-responsive" alt="">
                             <div class="img-box-content visible">
-                                <h4 class="mb-2">Los Angeles</h4>
-                                <span>307 Properties</span>
+                                <h4 class="mb-2">São Paulo</h4>
+                                <span>307 Propriedades</span>
                                 <ul class="starts text-center mt-2">
                                     <li><i class="fa fa-star"></i>
                                     </li>
@@ -1239,11 +1242,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 pr" data-aos="zoom-in" data-aos-delay="350">
                         <!-- Image Box -->
-                        <a href="listing-details.html" class="img-box hover-effect">
+                        <a href="#" class="img-box hover-effect">
                             <img src="images/popular-places/9.jpg" class="img-responsive" alt="">
                             <div class="img-box-content visible">
-                                <h4 class="mb-2">Miami </h4>
-                                <span>409 Properties</span>
+                                <h4 class="mb-2">Rio de Janeiro </h4>
+                                <span>409 Propriedades</span>
                                 <ul class="starts text-center mt-2">
                                     <li><i class="fa fa-star"></i>
                                     </li>
@@ -1261,11 +1264,11 @@
                     </div>
                     <div class="col-lg-3 col-md-6 pr-1" data-aos="zoom-in" data-aos-delay="450">
                         <!-- Image Box -->
-                        <a href="listing-details.html" class="img-box san no-mb x3 hover-effect">
+                        <a href="#" class="img-box san no-mb x3 hover-effect">
                             <img src="images/popular-places/10.jpg" class="img-responsive" alt="">
                             <div class="img-box-content visible">
-                                <h4 class="mb-2">Chicago</h4>
-                                <span>507 Properties</span>
+                                <h4 class="mb-2">Recife</h4>
+                                <span>507 Propriedades</span>
                                 <ul class="starts text-center mt-2">
                                     <li><i class="fa fa-star"></i>
                                     </li>
@@ -1294,28 +1297,28 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="netabout">
                                 <a href="index.html" class="logo">
-                                    <img src="images/logo-footer.svg" alt="netcom">
+                                    <!-- <img src="images/logo-footer.svg" alt="netcom"> -->
                                 </a>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam, perspiciatis, aspernatur officiis esse.</p>
+                                <p>Nós da Imove proporcionamos a você uma experiência fantástica que vai trazer as melhores opcões de mercado!</p>
                             </div>
                             <div class="contactus">
                                 <ul>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                            <p class="in-p">95 South Park Avenue, USA</p>
+                                            <p class="in-p">Avenida Afonso Pena, 355, Savassi, Belo Horizonte - MG</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-phone" aria-hidden="true"></i>
-                                            <p class="in-p">+456 875 369 208</p>
+                                            <p class="in-p">+31 3342 0090</p>
                                         </div>
                                     </li>
                                     <li>
                                         <div class="info">
                                             <i class="fa fa-envelope" aria-hidden="true"></i>
-                                            <p class="in-p ti">support@findhouses.com</p>
+                                            <p class="in-p ti">contato@imove.com.br</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -1326,19 +1329,19 @@
                                 <h3>Navigation</h3>
                                 <div class="nav-footer">
                                     <ul>
-                                        <li><a href="index.html">Home One</a></li>
-                                        <li><a href="properties-right-sidebar.html">Properties Right</a></li>
-                                        <li><a href="properties-full-list.html">Properties List</a></li>
-                                        <li><a href="properties-details.html">Property Details</a></li>
-                                        <li class="no-mgb"><a href="agents-listing-grid.html">Agents Listing</a></li>
+                                        <!-- <li><a href="index.html">Home</a></li> -->
+                                        <li><a href="#">Propriedades para Alugar</a></li>
+                                        <li><a href="#">Propriedades para Comprar</a></li>
+                                        <li><a href="#">Propriedades em Geral</a></li>
+                                        <li class="no-mgb"><a href="#">Corretores</a></li>
                                     </ul>
-                                    <ul class="nav-right">
-                                        <li><a href="agent-details.html">Agents Details</a></li>
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="blog.html">Blog Default</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                        <li class="no-mgb"><a href="contact-us.html">Contact Us</a></li>
-                                    </ul>
+                                    <!-- <ul class="nav-right">
+                                        <li><a href="#"></a></li>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Blog Default</a></li>
+                                        <li><a href="#">Blog Details</a></li>
+                                        <li class="no-mgb"><a href="#">Contact Us</a></li>
+                                    </ul> -->
                                 </div>
                             </div>
                         </div>
@@ -1352,8 +1355,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
-                                                <h4>about 5 days ago</h4>
+                                                <h5><a href="#">@imove</a> tudo em um só lugar.</h5>
+                                                <h4>5 dias átras</h4>
                                             </div>
                                         </div>
                                         <div class="single-item">
@@ -1361,8 +1364,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
-                                                <h4>about 5 days ago</h4>
+                                                <h5><a href="#">@imove</a> aluguei meu apartamento sem dificuldades.</h5>
+                                                <h4>5 dias átras</h4>
                                             </div>
                                         </div>
                                         <div class="single-item">
@@ -1370,8 +1373,8 @@
                                                 <i class="fa fa-twitter" aria-hidden="true"></i>
                                             </div>
                                             <div class="text">
-                                                <h5><a href="#">@findhouses</a> all share them with me baby said inspet.</h5>
-                                                <h4>about 5 days ago</h4>
+                                                <h5><a href="#">@imove</a> comprei minha casa em condomínio fechado, excelente.</h5>
+                                                <h4>5 dias átras</h4>
                                             </div>
                                         </div>
                                     </div>
@@ -1381,13 +1384,13 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="newsletters">
                                 <h3>Newsletters</h3>
-                                <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.</p>
+                                <p>Assine o nosso feed de notícias e fique por dentro de todas as nossas novidades!</p>
                             </div>
                             <form class="bloq-email mailchimp form-inline" method="post">
                                 <label for="subscribeEmail" class="error"></label>
                                 <div class="email">
-                                    <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
-                                    <input type="submit" value="Subscribe">
+                                    <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Seu melhor e-mail">
+                                    <input type="submit" value="Inscrever">
                                     <p class="subscription-success"></p>
                                 </div>
                             </form>
@@ -1397,7 +1400,7 @@
             </div>
             <div class="second-footer rec-pro">
                 <div class="container-fluid sd-f">
-                    <p>2021 © Copyright - All Rights Reserved.</p>
+                    <p>2022 © Copyright - Todos os direitos reservados.</p>
                     <ul class="netsocials">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -1530,7 +1533,7 @@
         
         <script>
             var typed = new Typed('.typed', {
-                strings: ["House ^2000", "Apartment ^2000", "Plaza ^4000"],
+                strings: ["Casas ^2000", "Apartamentos ^2000", "Pontos Comerciais ^4000"],
                 smartBackspace: false,
                 loop: true,
                 showCursor: true,
